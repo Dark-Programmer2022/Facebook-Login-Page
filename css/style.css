@@ -1,0 +1,287 @@
+/*==================================================================================================================================== 
+    Start Header Section
+======================================================================================================================================*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.header {
+    background-color: rgba( 240, 242, 245, 1.0);
+    padding: 10px 0;
+}
+.header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.container {
+    width: 65%;
+    margin: auto;
+    max-width: 1000px;
+}
+.facebook-logo {
+    width: 30%;
+    float: left;
+}
+.facebook-logo img {
+    width: 180px;
+    margin-top: 14px;
+}
+.login-area {
+    width: 70%;
+    float: left;
+    color: rgba(0, 0, 0, 1.0);
+}
+.login-area form {
+    float: right;
+}
+.login-area label, .login-area input {
+    display: block;
+}
+.login-area .email, .login-area .password, .login-area .login {
+    float: left;
+    margin-right: 15px;
+}
+.login-area label {
+    font-size: 13px;
+    padding: 8px 0;
+}
+.login-area .login {
+    margin: 0;
+}
+.login-area input[type="text"], .login-area input[type="password"] {
+    border: thin solid rgba( 0, 0, 0, 1.0);
+    font-size: 12px;
+    font-weight: 300;
+    padding: 2px 6px;
+}
+.login-area .password a {
+    text-decoration: none;
+    font-size: 12;
+    font-weight: 500;
+    color: #1877f2;
+}
+.login-area .password a:hover {
+    text-decoration: underline;
+}
+.login-area input[type="submit"] {
+    color: rgba( 255, 255, 255, 1.0);
+    background-color: #1877f2;
+    border: thin solid #1877f2;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 32px;
+    padding: 3px 7px;
+}
+/*========================================================================================================================================
+    End Header Section
+ =======================================================================================================================================*/
+
+
+
+/*========================================================================================================================================
+    Start Signp Section
+ ======================================================================================================================================*/
+.signup-area {
+    background-color: rgba( 240, 242, 245, 1.0);
+    padding: 25px 0;
+}
+.signup-area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.left-side {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+.left-side p {
+    font-size: 20px;
+    color: #1c1e21;;
+    font-weight: 600;
+    width: 120%;
+}
+.left-side img {
+    width: 100%;
+}
+.right-side {
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+.right-side h2 {
+    font-size: 33px;
+    color:  #1c1e21;;
+    margin: 0;
+}
+.right-side h4 {
+    font-size: 19px;
+    color: #1c1e21;;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.right-side input[type="text"], .right-side input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: thin solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.full-name {
+    overflow: hidden;
+}
+.first-name {
+    width: 47%;
+    float: left;
+    margin-right: 4%;
+    margin-left: 1%;
+}
+.surname {
+    width: 47%;
+    float: left;
+    margin-right: 1%;
+}
+.birthday {
+    overflow: hidden;
+}
+.birthday h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.birth-date {
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+.birth-date select {
+    border: thin solid #ccc;
+    padding: 10px;
+}
+.birth-link {
+    float: left;
+    width: 190px;
+}
+.birth-link a {
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    line-height: 1.2;
+    color: #365899;
+}
+.birth-link a:hover {
+    text-decoration: underline;
+}
+.gender {
+    margin: 10px 0;
+}
+.gender label {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1c1e21;
+}
+.text-box {
+    margin-bottom: 20px;
+}
+.text-box p {
+    font-size: 13px;
+    color: #777;
+    width: 150%;
+}
+.text-box a {
+    text-decoration: none;
+    color: #365899;
+}
+.text-box a:hover {
+    text-decoration: underline;
+}
+.btn {
+    margin-bottom: 30px;
+}
+.btn input {
+    background-color: rgba(9, 132, 227,1.0);
+    box-shadow: inset 0 1px 1px rgba(52, 152, 219,1.0);
+    border: thin solid rgba(52, 152, 219,1.0);
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 280px;
+    text-align: center;
+    color: #fff;
+    transition: 0.1s;
+}
+.btn input:hover {
+    background-color: #1877f2;
+    cursor: pointer;
+}
+.business {
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 50px;
+}
+.business a {
+    text-decoration: none;
+    color: #365899;
+}
+.business a:hover {
+    text-decoration: underline;
+}
+/*=========================================================================================================================================
+     End Signp Section
+==========================================================================================================================================*/
+
+
+
+
+/*=========================================================================================================================================
+     Start Footer Section
+==========================================================================================================================================*/
+.footer-area {
+    padding: 40px 0;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li {
+    list-style-type: none;
+    display: inline;
+}
+.footer-area ul li a {
+    text-decoration: none;
+    color: #8a8d91;;
+    font-size: 14px;
+}
+.footer-area ul li a:hover {
+    text-decoration: underline;
+}
+.footer-area ul li.active a {
+    color: #8a8d91;
+}
+.footer-area .top ul li {
+    margin-right: 8px;
+}
+.footer-area .middle ul li {
+    margin-right: 13px;
+}
+.footer-area hr {
+    border: 0;
+    border-bottom: thin solid #d4d4d4;
+}
+.footer-area .bottom {
+    margin-top: 20px;
+}
+.footer-area span {
+    color: #8a8d91;
+    font-size: 14px;
+}
+/*=========================================================================================================================================
+    End Footer Section
+=========================================================================================================================================*/
