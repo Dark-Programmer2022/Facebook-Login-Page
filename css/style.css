@@ -42,7 +42,7 @@ body {
     margin-right: 15px;
 }
 .login-area label {
-    font-size: 13px;
+    font-size: 15px;
     padding: 8px 0;
 }
 .login-area .login {
@@ -52,7 +52,7 @@ body {
     border: thin solid rgba( 0, 0, 0, 1.0);
     font-size: 12px;
     font-weight: 300;
-    padding: 2px 6px;
+    padding: 6px 6px;
 }
 .login-area .password a {
     text-decoration: none;
